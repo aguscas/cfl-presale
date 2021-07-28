@@ -156,7 +156,7 @@ def compare_models_frequency_errors(error_dict, error_type = 'rmse'):
 
     fig, ax = plt.subplots(figsize=(20,6))
 
-    ax.set_title('Relative {error_type} comparison')
+    ax.set_title(f'Relative {error_type} comparison')
     ax.set_xlabel('Relative error')
     ax.set_ylabel('Frequency')
 
